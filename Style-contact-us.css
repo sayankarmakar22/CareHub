@@ -1,0 +1,44 @@
+.contact-us{
+    height: 275px;
+    background-color:blueviolet;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -8px; 
+}
+.contact-us h2{
+   color: white;
+   position: absolute;
+   text-align: center;
+   top:90px;
+   left:45%;
+}
+.contact-image{
+    position: absolute;
+    top:450px;
+    left: 20%;
+}
+.contact-form{
+    border:2px solid rgb(221, 216, 216);
+    width: 450px;
+    height: 400px;
+    padding: 40px;
+    position: absolute;
+    top:500px;
+    left:500px;
+    /* margin: 0px; */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.contact-form input{
+    border:2px solid grey;
+    padding: 10px;
+    size: 75px;
+}
+.btn-submit{
+    border-radius: 20px;
+    height: 45px;
+    width: 100%;
+    background-color:aqua;
+    color:rgb(91, 11, 116);
+    font-size: 20px;
+    box-shadow: 2px 4px 5px 3px rgba(0, 0, 0, 0.5);;
+}

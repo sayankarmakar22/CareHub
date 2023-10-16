@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Contact Us</title>
+   <link rel="stylesheet" href="Style-contact-us.css">
+ </head>
+ <body>
+    <div class="contact-us">
+        <H2>
+            Post A Query
+        </H2>
+    </div>
+    <div>
+    <img src="assets/contact-image.jpg" height="550px" class="contact-image">
+    <form action="process_form.php" method="post" class="contact-form">
+        <input type="text" id="name" name="name" required size="50px" placeholder="Name:"><br><br>
+
+        <input type="email" id="email" name="email" required placeholder="Email" size="50px"><br><br>
+
+        <input type="tel" id="phone" name="phone" required size="50px" placeholder="PhoneNumber"><br><br>
+
+        <textarea id="message" name="message" rows="4"  size="75px" placeholder="Comments"></textarea><br><br>
+
+        <input type="submit" value="Send" class="btn-submit">
+    </form>
+    </div>
+
+ </body>
+ </html>
