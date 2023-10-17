@@ -1,44 +1,89 @@
 .contact-us{
-    height: 275px;
+    height: 150px;
     background-color:blueviolet;
     margin-top: -20px;
     margin-left: -10px;
     margin-right: -8px; 
 }
 .contact-us h2{
+    font-size: 50px;
    color: white;
    position: absolute;
    text-align: center;
-   top:90px;
-   left:45%;
+   top:-10px;
+   left:40%; 
 }
-.contact-image{
-    position: absolute;
-    top:450px;
-    left: 20%;
+
+.form{
+    margin-top: 50px;
+    height: 454px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    
 }
-.contact-form{
-    border:2px solid rgb(221, 216, 216);
-    width: 450px;
-    height: 400px;
-    padding: 40px;
-    position: absolute;
-    top:500px;
-    left:500px;
-    /* margin: 0px; */
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+.form input,textarea{
+    padding: 20px;
+    size: 95px;
+    color :rgb(184, 113, 28);
+    border-radius: 30px;
+    box-shadow: 2px 4px 5px 3px rgba(0, 0, 0, 0.5);
 }
-.contact-form input{
-    border:2px solid grey;
-    padding: 10px;
-    size: 75px;
-}
-.btn-submit{
+.form .btn-submit{
+    padding-top: 10px;
     border-radius: 20px;
     height: 45px;
     width: 100%;
-    background-color:aqua;
-    color:rgb(91, 11, 116);
+    background-color:rgb(24, 70, 197);
+    color:white;
     font-size: 20px;
-    box-shadow: 2px 4px 5px 3px rgba(0, 0, 0, 0.5);;
+    box-shadow: 2px 4px 5px 3px rgba(0, 0, 0, 0.5);
+    
+}
+
+@media screen and (max-width : 393px) {
+    .contact-us{
+        height: 100px;
+        margin-top: -20px;
+        margin-left: -10px;
+        margin-right: -15px; 
+    }
+    .contact-us h2{
+        font-size: 35px;
+       color: white;
+       position: absolute;
+       text-align: center;
+       top:-10px;
+       left:100px; 
+    }
+    .form{
+        margin-top: 200px;
+        flex-direction: column;
+    }
+    .contact-image{
+      margin-top:200px;
+    }
+    .contact-form{
+        width: 200px;
+    }
+    .form input,textarea{
+        padding: 20px;
+        width: 300px;
+        margin: 10px;
+        margin-right: 10px;
+        color :rgb(184, 113, 28);
+        border-radius: 30px;
+        box-shadow: 2px 4px 5px 3px rgba(0, 0, 0, 0.5);
+    }
+    .form .btn-submit{
+        padding-top: 10px;
+        border-radius: 20px;
+        height: 45px;
+        width: 355px;
+        background-color:rgb(24, 70, 197);
+        color:white;
+        font-size: 20px;
+        box-shadow: 2px 4px 5px 3px rgba(0, 0, 0, 0.5);
+        
+    }
 }
