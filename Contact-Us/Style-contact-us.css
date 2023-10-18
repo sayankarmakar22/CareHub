@@ -87,3 +87,11 @@
         
     }
 }
+
+@media screen and (max-width : 375px) {
+    .form .btn-submit{
+       position: absolute;
+       right:2px;
+    }
+
+}
